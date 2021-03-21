@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnhub</title>
+    <link rel="stylesheet" href="/mainCode/RegPage/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="/mainCode/script.js"></script>   
+    <div class="searchBox">
+        <button><i class="fa fa-search" aria-hidden="true"></i></button> 
+        <input type="text" name="search" placeholder="Global search" required>
+        <button id="notif"><i  class="fa fa-bell-o" aria-hidden="true"></i></button>
+    </div>
+
+     <section class="imageProfile">
+                <img src="mainCode/images/img_avatar.png" alt="">
+          <button id="pencil"><i class="fa fa-pencil" aria-hidden="true" ></i></button>
+        <div id="roundImg">
+            <img src="/mainCode/images/img_avatar.png" alt="">
+            <button><i class="fa fa-pencil" aria-hidden="true" ></i></button>
+        </div>
+    </section> <br>
+
+    <div class="addtext"><h2>Add a new user</h2></div><br>
+    
+    <section id="formsec">
+        <div class="left-form">
+            <form action="" id="inputForm">
+                <label for="fname"><b>Firstname</b></label><br>
+                <input type="text" placeholder="Firstname" name="fname" id="fname" ><br><br>
+
+                <label for="Mname"><b>Middlename</b></label><br>
+                <input type="text" placeholder="Middlename" name="Mname" id="Mname" required><br><br>
+
+                <label for="Lname"><b>Lastname</b></label><br>
+                <input type="text" placeholder="Lastname" name="Lname" id="Lname" required><br><br>
+
+                <label for="Uname"><b>Username</b></label><br>
+                <input type="text" placeholder="Username" name="Uname" id="Uname" required><br><br>
+            </form> 
+        </div><br><br>
+
+        <div class="right-form">
+            <form action="" id="inputForm">
+                <label for="email"><b>Email</b></label><br>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+                <label for="type"><b>Type</b></label><br>
+                <select id="cars">
+                    <option value="SHS">SHS</option>
+                    <option value="JHS">JHS</option>
+                    <option value="JHS">JHS</option>
+                </select><br><br>
+
+                <label for="DoB"><b>Date of Birth</b></label><br>
+                <input type="date" placeholder="Date of Birth" name="DoB" id="DoB" required>
+                <!-- <button class="dateIcon"><i class="fa fa-calendar" aria-hidden="true" ></i></button> -->
+                <br><br>
+
+                <label for="role"><b>Role</b></label><br>
+                <select id="cars">
+                    <option value="ADMIN">ADMIN</option>
+                    <option value="STUDENT">STUDENT</option>
+                    <option value="STUDENT">STUDENT</option>
+                </select>
+            </form> <br><br>
+            <input type="submit" value="Submit" id="subBtn" onclick="adminPage()">
+            
+        </div>
+    </section>
+    
+</body>
+</html>

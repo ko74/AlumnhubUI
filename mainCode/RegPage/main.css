@@ -1,0 +1,161 @@
+body{
+    position: relative;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.searchBox{
+    margin-left: 25%;
+    width: 75%;
+    position: relative;
+    
+}
+
+.searchBox button{
+    background-color: transparent;
+    border: none;
+    border-radius: 100px;
+}
+
+.searchBox input[type=text]{
+    border: none;
+    width: 60%;
+    padding: 8px;
+    transition: .5s;
+    outline: none;  
+}
+
+::placeholder{
+    color: rgb(224, 222, 222);
+    font-weight: 700;
+}
+#notif{
+    margin-left: 300px;
+}
+
+.imageProfile{
+    height: 200px;
+    width: 80%;
+    margin-left: 20%;
+    border: 2px solid #e2ebf4;
+    background: black
+}
+
+
+#pencil{
+    margin-left: 1000px;
+    margin-top: 160px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.imageProfile button{
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50px;  
+}
+
+#roundImg button{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 60px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50px; 
+}
+
+#roundImg{  
+    height: 90px;
+    width: 90px;
+    
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 130px; 
+}
+
+#roundImg img{
+    height: 90;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+button:hover{
+    background-color: rgb(158, 158, 158);
+    transition: .3s;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.addtext{
+    font-size: 10px;
+    margin-left: 450px;
+}
+
+#formsec{
+    margin-left: 40%;
+    display: inline-flex;
+}
+
+.right-form{
+    margin-left: 100px;
+}
+
+input{
+    width: 280px;
+    border-style: 1px solid;
+    border-color:  black ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color:black;
+    outline: none;
+}
+
+#subBtn{
+    height: 45px;
+    width: 50%;
+    border-radius: 5px;
+    background: rgb(76, 143, 243);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(247, 246, 246);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.dateB{
+    display: block;
+}
+
+label{
+    color:rgb(76, 143, 243);
+    font-size: 14px;
+}
+
+select{
+    width: 300px;
+    border-style: 1px solid;
+    border-color:  black ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    outline: none;
+}
+
+
