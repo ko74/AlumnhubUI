@@ -58,6 +58,11 @@ body{
     box-shadow: 0 0 10px rgb(87, 87, 87); 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.sidebar i{
+    margin-right: 10px;
+    color: rgb(190, 190, 190);
+   
+}
 
 a{
     text-decoration: none;
